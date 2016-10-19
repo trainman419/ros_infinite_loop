@@ -1,0 +1,6 @@
+<launch>
+  <node pkg="ros_infinite_loop" type="loop" name="loop"/>
+  <node pkg="ros_infinite_loop" type="ping" name="ping1"/>
+  <node pkg="ros_infinite_loop" type="ping" name="ping2"/>
+  <node pkg="ros_infinite_loop" type="ping" name="ping3"/>
+</launch>

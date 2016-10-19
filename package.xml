@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>ros_infinite_loop</name>
+  <version>0.0.0</version>
+  <description>The ros_infinite_loop package</description>
+
+  <maintainer email="legotown@aol.com">Austin</maintainer>
+
+  <license>BSD</license>
+
+
+  <author email="legotown@aol.com">Austin</author>
+
+
+  <buildtool_depend>catkin</buildtool_depend>
+  <depend>roscpp</depend>
+
+
+  <!-- The export tag contains other, unspecified, tags -->
+  <export>
+    <!-- Other tools can request additional information be placed here -->
+
+  </export>
+</package>

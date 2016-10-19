@@ -1,0 +1,8 @@
+#!/usr/bin/env python
+# this is basically just `rosnode ping` but as a node, because you can't
+# run rosnode ping from a launch file
+
+import time
+import rosnode
+time.sleep(2)
+rosnode.rosnodemain(['rosnode', 'ping', '/loop'])
